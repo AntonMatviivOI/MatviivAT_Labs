@@ -41,10 +41,6 @@ public class FibonacciCheck {
     }
 }
 
-package Univer;
-
-import java.util.Scanner;
-
 class FNumber {
     private int index;     // номер числа у послідовності
     private long value;    // значення числа
@@ -71,4 +67,5 @@ class FNumber {
     public String toString() {
         return "F(" + index + ") = " + value;
     }
+
 }
